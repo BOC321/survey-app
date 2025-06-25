@@ -1,0 +1,23 @@
+# Core Django
+Django==4.2.7
+djangorestframework==3.14.0
+
+# Database (PostgreSQL recommended for production)
+psycopg2-binary==2.9.7  # PostgreSQL adapter
+
+# File handling
+Pillow==10.0.1  # For image fields (banner uploads)
+
+# CORS (for React-Django communication)
+django-cors-headers==4.3.1
+
+# Deployment
+gunicorn==21.2.0  # Production WSGI server
+whitenoise==6.5.0  # Static file serving
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Development tools (optional)
+black==23.9.1  # Code formatter
+django-debug-toolbar==4.2.0  # Debugging
